@@ -72,7 +72,7 @@ class SvINFOTab(IMessageEditorTab):
             return False
 
 def isSv(string):
-    sv = re.findall(r'^.*Server: [a-z0-9A-Z]{2,20}/[0-9.]{1,15}.*$', string)
+    sv = re.findall(r'Server: [a-z0-9A-Z]{2,20}/[0-9.]{1,15}', string)
     if sv != ['']:
         return sv
     else:
