@@ -3,7 +3,7 @@
 ## ServerVersion
 
 ```
-Author: WJRYR
+Author: wjryr
 ```
 
 ### 版本
